@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RN3 player by SAG</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<header>
+<img id="logo" src="rn3.png"></img>
+<div id="playing">
+
+  <div id="playing-info">
+    <a id="playing-link" target="_blank" href="/">
+    <img id="playing-cover" src="noimage.jpg"></img>
+    <p id="playing-artist" class="artist">Current artist</p>
+    <p id="playing-song" class="song">playing song</p>
+    </a>
+  </div>
+
+  <div id="player">
+
+<object type="application/x-shockwave-flash" id="directoradioPlayer" height="37" width="100%" data="http://swf.rtve.es/swf/4.3.13/RTVEPlayerAudio.swf">
+	<param name="movie" value="http://swf.rtve.es/swf/4.3.13/RTVEPlayerAudio.swf"/>
+	<param name="allowScriptAccess" value="always">
+	<param name="allowFullScreen" value="true">
+	<param name="bgcolor" value="#FFFFFF">
+	<param name="flashvars" value="assetID=1712469_es_audios&location=alacarta_audios&playerId=directoradioPlayer">
+
+	<a href="http://www.rtve.es/alacarta/audios/programa/rne_rne3-live/1712469/" itemprop="url">
+			 
+		<span class="audioplay">
+			<strong>Escuchar audio</strong>	
+		</span>
+		<img src="http://img.rtve.es/css/i/player-radio-dummy.png" alt="RNE_RNE1o3 LIVE" title="RNE_RNE1o3 LIVE" />
+
+	</a>
+	
+</object>
+
+	</div>
+
+  </div>
+</header>
+
+<ul id="played">
+</ul>
+</body>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "rn3",
+  "version": "1.0.0",
+  "description": "play MP3 from RN3",
+  "main": "rn3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node rn3"
+  },
+  "author": "Sebastia",
+  "license": "ISC"
+}
